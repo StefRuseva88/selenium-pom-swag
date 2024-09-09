@@ -14,13 +14,13 @@ This repository provides a detailed guide to implementing the Page Object Model 
 - A **Shopping cart** where users can manage selected products.
 - A **Checkout process** to complete purchases.
 
-### Objective
+## Objective
 The objective of this project is to demonstrate how to:
 - Implement the **Page Object Model (POM)** in a structured and scalable way.
 - Automate the complete shopping process from login to checkout using **Selenium WebDriver**.
 - Manage complex user interactions.
 
-### Project Structure
+## Project Structure
 - **Pages**: This folder contains the Page Object classes representing various pages of the Swag Labs application.
   - `BasePage.cs`: A base class containing common web driver methods and elements shared across pages.
   - `LoginPage.cs`: Represents the login page and contains methods for logging into the application.
@@ -36,5 +36,15 @@ The objective of this project is to demonstrate how to:
   - `CartTests.cs`: Tests for managing the shopping cart.
   - `CheckoutTests.cs`: Tests for validating the checkout process.
 
+## Contributing
+Contributions are welcome! If you have any improvements or suggestions, feel free to open a pull request.
 
+## License
+This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any questions or suggestions, please reach out to the course instructor or open an issue in the repository.
+
+---
+### Happy Testing! 🚀
 
