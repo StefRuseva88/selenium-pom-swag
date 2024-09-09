@@ -21,7 +21,7 @@ The objective of this project is to demonstrate how to:
 - Manage complex user interactions.
 
 ### Project Structure
-- **Pages/**: This folder contains the Page Object classes representing various pages of the Swag Labs application.
+- **Pages**: This folder contains the Page Object classes representing various pages of the Swag Labs application.
   - `BasePage.cs`: A base class containing common web driver methods and elements shared across pages.
   - `LoginPage.cs`: Represents the login page and contains methods for logging into the application.
   - `InventoryPage.cs`: Represents the inventory/product page, including methods for selecting products.
@@ -29,7 +29,7 @@ The objective of this project is to demonstrate how to:
   - `CheckoutPage.cs`: Represents the checkout process, handling form submissions.
   - `HiddenMenuPage.cs`: Handles the hidden menu (if applicable).
   
-- **Tests/**: This folder contains test classes for different functionalities in the application.
+- **Tests**: This folder contains test classes for different functionalities in the application.
   - `BaseTest.cs`: A base test class that handles setup and teardown of the WebDriver and other shared configurations.
   - `LoginTests.cs`: Tests for validating the login functionality.
   - `InventoryTests.cs`: Tests for product selection on the inventory page.
