@@ -36,9 +36,6 @@ The objective of this project is to demonstrate how to:
   - `CartTests.cs`: Tests for managing the shopping cart.
   - `CheckoutTests.cs`: Tests for validating the checkout process.
 
-## Contributing
-Contributions are welcome! If you have any improvements or suggestions, feel free to open a pull request.
-
 ## License
 This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
 
